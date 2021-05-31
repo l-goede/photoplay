@@ -10,9 +10,9 @@ function NavBar(): JSX.Element {
   return (
     <div className={styles.navBar}>
       <NavBarLink icon={<HomeIcon />} text="Home" link="/" />
-      <NavBarLink icon={<SearchIcon />} text="Search" link="#" />
-      <NavBarLink icon={<DownloadIcon />} text="Download" link="#" />
-      <NavBarLink icon={<ProfileIcon />} text="Profile" link="#" />
+      <NavBarLink icon={<SearchIcon />} text="Search" link="/search" />
+      <NavBarLink icon={<DownloadIcon />} text="Download" link="/download" />
+      <NavBarLink icon={<ProfileIcon />} text="Profile" link="/profile" />
     </div>
   );
 }
